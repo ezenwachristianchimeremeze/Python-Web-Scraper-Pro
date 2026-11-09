@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local device and shell configuration
+.android/
+.ssh/
+.config/
+.bashrc
+.git-credentials
+.gitconfig
+
+# Caches and installed dependencies
+.cache/
+.cargo/
+.npm/
+node_modules/
+
+# Runtime data and generated files
+*.log
+*.sqlite
+*.sqlite3
+*.db
+storage/
+uploads/
+dist/
+build/
